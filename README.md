@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🌱 farmX – Smart Agriculture Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+farmX is a web-based application that helps farmers make better decisions using real-time data and smart tools. It provides crop prices, government schemes, fertilizer calculation, buyer information, and AI-based crop recommendations.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* 📊 Live Crop Prices
+* 🏛️ Government Schemes (Pre-Crop & Crop Loss)
+* 🌿 Fertilizer Calculator
+* 🛒 Buyers / Market Information
+* 🤖 AI Crop Recommendation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚠️ Problem Statement
 
-### `npm test`
+Farmers face difficulties such as:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Lack of real-time market price information
+* Low awareness of government schemes
+* Incorrect fertilizer usage
+* Difficulty in finding genuine buyers
+* Confusion in selecting the right crop
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✅ Solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+farmX provides:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Real-time crop price updates
+* Easy access to government schemes
+* Smart fertilizer calculation
+* Verified buyer connections
+* AI-based crop suggestions
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Frontend: React JS
+* Backend: Django
+* Database: SQLite
+* API: REST API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Installation & Setup
 
-## Learn More
+### 1️⃣ Clone the repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/your-username/farmx.git
+cd farmx
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2️⃣ Backend Setup (Django)
 
-### Code Splitting
+```bash
+cd backend
+pip install -r requirements.txt
+python manage.py runserver
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3️⃣ Frontend Setup (React)
 
-### Analyzing the Bundle Size
+```bash
+cd frontend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🌐 Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Open: http://localhost:3000
+* Backend runs on: http://127.0.0.1:8000
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🎯 Objective
 
-### `npm run build` fails to minify
+To improve farmer productivity, reduce costs, and enable smart agriculture using technology.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📌 Conclusion
+
+farmX bridges the gap between farmers and technology by providing all essential farming tools in one platform. It helps farmers take better decisions and improve their income.
+
+---
